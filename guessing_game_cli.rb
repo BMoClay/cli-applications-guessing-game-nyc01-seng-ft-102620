@@ -9,8 +9,8 @@ def run_guessing_game
         puts "/Goodbye!/"
       else user_number != random_number
         puts "/Sorry! The computer guessed #{random_number}/"
-      #else user_number == random_number
-      #  puts "/You guessed the correct number!/"
-      binding.pry
+      end
+      if user_number == random_number
+        puts "/You guessed the correct number!/"
       end
     end
