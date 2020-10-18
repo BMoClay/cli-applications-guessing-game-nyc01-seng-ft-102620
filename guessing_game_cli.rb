@@ -6,7 +6,8 @@ def run_guessing_game
     #puts "Guess a number between 1 and 6"
       if user_number == "exit"
         puts "/Goodbye!/"
-      elsif user_number != random_number
+      end
+      if user_number != random_number
         puts "/Sorry! The computer guessed #{random_number}/"
       else user_number === random_number
         puts "/You guessed the correct number!/"
